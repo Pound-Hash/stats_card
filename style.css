@@ -22,7 +22,8 @@ font-family: 'Lexend Deca', sans-serif; */
 }
 
 .photo {
-	background-image: url(./images/image-header-mobile.jpg);
+	background-image: linear-gradient(rgba(0, 0, 255, .32), rgba(0, 0, 255, .32)), url(./images/image-header-mobile.jpg);
+	filter: brightness(.8);
 	width: 100%;
 	aspect-ratio: 109 / 80;
 	background-size: contain;

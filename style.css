@@ -10,7 +10,7 @@ html {
 
 body {
 	background-color: hsl(233, 47%, 7%);
-	padding: 9% 6%;
+	padding: 20% 6%;
 }
 
 main {
@@ -19,6 +19,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	font-family: Inter, sans-serif;
 	font-weight: 400;
 }
@@ -37,7 +38,7 @@ h1 {
 	font-weight: 700;
 	font-size: 1.5rem;
 	text-align: center;
-	margin: 2rem 1rem;
+	margin: 2.5rem 1rem 1rem;
 }
 
 h1 b {
@@ -46,18 +47,40 @@ h1 b {
 
 p {
 	color: hsla(0, 0%, 100%, 0.75);
+	text-align: center;
+	margin: 0 1.5rem 2.5rem;
+	line-height: 1.5rem;
+}
+
+ul {
+	text-align: center;
+	line-height: 1.6rem;
+	margin-bottom: 1rem;
+}
+
+li {
+	margin-bottom: 1.5rem;
 }
 
 .sh {
 	color: hsla(0, 0%, 100%, 0.6);
 	font-family: "Lexend Deca", sans-serif;
 	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .1rem;
 }
 
 .stats {
 	color: hsl(0, 0%, 100%);
 	font-weight: 700;
+	font-size: 1.5rem;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: hsla(0, 0%, 100%, 0.6);
+	margin-top: 1rem;
+}
+
 .attribution a { color: hsl(228, 45%, 44%); }

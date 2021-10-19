@@ -83,7 +83,10 @@ li {
 	margin-top: 1rem;
 }
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+	color: hsl(228, 45%, 44%);
+	text-decoration-line: none;
+}
 
 @media (orientation: landscape) {
 
@@ -93,26 +96,47 @@ li {
 
 	main {
 		flex-direction: row;
+		
 	}
 
 	.picture {
-		order: 1;
 		background-image: linear-gradient(rgba(0, 0, 255, .32), rgba(0, 0, 255, .32)), url(./images/image-header-desktop.jpg);
 		filter: brightness(.8);
-		width: 100%;
 		aspect-ratio: 270 / 223;
-		background-size: contain;
 		border-radius: 0px 10px 10px 0px;
 		background-repeat: no-repeat;
+		order: 1;
 	}
 
 	.text {
 		flex-direction: column;
+		width: 100%;
+		padding: 0px 10% 0px 5%;
+		margin: 0;
+	}
+
+	h1 {
+		text-align: left;
+		padding: inherit;
+		margin: inherit;
+}
+
+	p {
+		text-align: left;
+		padding: inherit;
+		margin: inherit;
 	}
 
 	ul {
 		display: grid;
 		grid-template-columns: auto auto auto;
+		text-align: left;
+		padding: inherit;
+		margin: inherit;
+	}
+
+	.attribution {
+		font-size: larger;
 	}
 
 }

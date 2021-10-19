@@ -111,14 +111,15 @@ li {
 	.text {
 		flex-direction: column;
 		width: 100%;
-		padding: 0px 10% 0px 5%;
-		margin: 0;
+		padding: 0px 5% 0px 5%;
+		margin: 0 0 2rem 0;
 	}
 
 	h1 {
 		text-align: left;
 		padding: inherit;
 		margin: inherit;
+		margin-top: 3rem;
 }
 
 	p {
@@ -133,6 +134,8 @@ li {
 		text-align: left;
 		padding: inherit;
 		margin: inherit;
+		margin-top: 4rem;
+		margin-bottom: 0;
 	}
 
 	.attribution {

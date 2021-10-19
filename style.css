@@ -36,7 +36,7 @@ main {
 h1 {
 	color: hsl(0, 0%, 100%);
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	text-align: center;
 	margin: 2.5rem 1rem 1rem;
 }
@@ -49,7 +49,7 @@ p {
 	color: hsla(0, 0%, 100%, 0.75);
 	text-align: center;
 	margin: 0 1.5rem 2.5rem;
-	line-height: 1.5rem;
+	line-height: 1.7rem;
 }
 
 ul {
@@ -66,7 +66,7 @@ li {
 	color: hsla(0, 0%, 100%, 0.6);
 	font-family: "Lexend Deca", sans-serif;
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: .8rem;
 	letter-spacing: .1rem;
 }
 
@@ -84,3 +84,35 @@ li {
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (orientation: landscape) {
+
+	body {
+		padding: 10% 9%;
+	}
+
+	main {
+		flex-direction: row;
+	}
+
+	.picture {
+		order: 1;
+		background-image: linear-gradient(rgba(0, 0, 255, .32), rgba(0, 0, 255, .32)), url(./images/image-header-desktop.jpg);
+		filter: brightness(.8);
+		width: 100%;
+		aspect-ratio: 270 / 223;
+		background-size: contain;
+		border-radius: 0px 10px 10px 0px;
+		background-repeat: no-repeat;
+	}
+
+	.text {
+		flex-direction: column;
+	}
+
+	ul {
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
+
+}

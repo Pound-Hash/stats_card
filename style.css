@@ -79,12 +79,12 @@ li {
 .attribution {
 	font-size: 11px;
 	text-align: center;
-	color: hsla(0, 0%, 100%, 0.6);
-	margin-top: 1rem;
+	color: hsla(0, 0%, 100%, 0.7);
+	margin-top: 2rem;
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: hsl(228, 45%, 64%);
 	text-decoration-line: none;
 }
 

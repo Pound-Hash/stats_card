@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Pound-Hash/stats_card)
-- Live Site URL: [Add live site URL here](https://nervous-albattani-0a8a15.netlify.app/)
+- Solution URL: [GitHub](https://github.com/Pound-Hash/stats_card)
+- Live Site URL: [Netlify](https://nervous-albattani-0a8a15.netlify.app/)
 
 ## My process
 
